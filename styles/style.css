@@ -14,7 +14,7 @@ body{
 /* Utilities */
 
 .container{
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -67,9 +67,10 @@ body{
 
 /* Sezione Header */
 
-#main-header{
-  height: 550px;
-  background-color: grey;
+.main-header{
+  width: 100%;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
 }
 /* Header-top */
 
@@ -81,8 +82,15 @@ body{
   height: 50px;
   background-color: #f4f9fd;
   line-height: 50px;
-  text-align: center;
   color: #677987;
+}
+
+.header-top-left{
+  text-align: right;
+}
+
+.header-top-right{
+  text-align: left;
 }
 
 .header-top .header-top-right,
@@ -93,7 +101,6 @@ body{
 .header-top-right,
 .header-top-left{
   width: calc(100% / 2);
-  padding: 0 10px;
 }
 
 .header-top-right .menu-inline  li:first-child{
@@ -103,7 +110,12 @@ body{
 
 /* Fine header top */
 
-/* Header btt */
+/* Header nav */
+.nav{
+  background-color: white;
+  border: 0;
+}
+
 .header-nav{
   height: 50px;
   background-color: white;
@@ -117,16 +129,14 @@ body{
   float: left;
 }
 
-
-.header-nav-right,
-.header-nav-logo {
-  width: 50%;
-}
-
 .header-nav-right{
-  padding-right: 10px;
+  width: 50%;
+  text-align: right;
 }
 
 .header-nav-logo{
+  width: 50%;
+  text-align: left;
+  padding-left: 19px;
   line-height: 5;
 }
