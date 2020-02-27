@@ -31,6 +31,7 @@ body{
 .menu-inline li{
   display: inline-block;
   line-height: 15px;
+  padding: 0px 10px;
 }
 .menu-inline a{
   padding: 10px;
@@ -43,17 +44,24 @@ body{
   border-radius: 5px;
   line-height: 10px;
   color: #fd775a;
-  padding: 5px 100px;
+  padding: 5px 10px;
 }
 
-.button-white{
+.button.button-white{
   background-color: white;
   color: #fd775a;
 }
 
-.button-orange{
+.button.button-orange{
   background-color: #fd775a;
   color: white;
+}
+
+.button.button-lg{
+  padding: 30px 40px;
+}
+
+.button.button-sm{
   padding: 5px 10px;
 }
 
@@ -63,6 +71,7 @@ body{
   height: 550px;
   background-color: grey;
 }
+/* Header-top */
 
 .header-top a{
   text-decoration: none;
@@ -92,10 +101,32 @@ body{
 
 }
 
-.header-top .button-orange{
-  color: white;
+/* Fine header top */
+
+/* Header btt */
+.header-nav{
+  height: 50px;
+  background-color: white;
+  line-height: 50px;
+  text-align: center;
+  color: #677987;
 }
 
-.header-top .button-white{
-  color: #fd775a;
+.header-nav .header-nav-logo,
+.header-nav .header-nav-right{
+  float: left;
+}
+
+
+.header-nav-right,
+.header-nav-logo {
+  width: 50%;
+}
+
+.header-nav-right{
+  padding-right: 10px;
+}
+
+.header-nav-logo{
+  line-height: 5;
 }
