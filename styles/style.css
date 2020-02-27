@@ -6,8 +6,8 @@
 }
 
 body{
-  font-family: 'Lato', ;
-  color: gray;
+  font-family: 'Lato', sans-serif ;
+  color: #33475b;
   font-size: 14px;
 }
 
@@ -30,11 +30,31 @@ body{
 
 .menu-inline li{
   display: inline-block;
+  line-height: 15px;
 }
 .menu-inline a{
-text-decoration: none;
-padding: 10px;
+  padding: 10px;
+  color: #33475b;
+}
 
+.button{
+  display: inline-block;
+  border: 1px solid #fd775a;
+  border-radius: 5px;
+  line-height: 10px;
+  color: #fd775a;
+  padding: 5px 100px;
+}
+
+.button-white{
+  background-color: white;
+  color: #fd775a;
+}
+
+.button-orange{
+  background-color: #fd775a;
+  color: white;
+  padding: 5px 10px;
 }
 
 /* Sezione Header */
@@ -44,11 +64,16 @@ padding: 10px;
   background-color: grey;
 }
 
+.header-top a{
+  text-decoration: none;
+}
+
 .header-top{
   height: 50px;
-  background-color: lightblue;
+  background-color: #f4f9fd;
   line-height: 50px;
   text-align: center;
+  color: #677987;
 }
 
 .header-top .header-top-right,
@@ -62,7 +87,15 @@ padding: 10px;
   padding: 0 10px;
 }
 
-.header-top-right .menu-inline li:first-child{
+.header-top-right .menu-inline  li:first-child{
   border-right: 1px solid grey;
-  
+
+}
+
+.header-top .button-orange{
+  color: white;
+}
+
+.header-top .button-white{
+  color: #fd775a;
 }
