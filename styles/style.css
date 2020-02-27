@@ -10,3 +10,59 @@ body{
   color: gray;
   font-size: 14px;
 }
+
+/* Utilities */
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline-block;
+}
+.menu-inline a{
+text-decoration: none;
+padding: 10px;
+
+}
+
+/* Sezione Header */
+
+#main-header{
+  height: 550px;
+  background-color: grey;
+}
+
+.header-top{
+  height: 50px;
+  background-color: lightblue;
+  line-height: 50px;
+  text-align: center;
+}
+
+.header-top .header-top-right,
+.header-top .header-top-left{
+  float: left;
+}
+
+.header-top-right,
+.header-top-left{
+  width: calc(100% / 2);
+  padding: 0 10px;
+}
+
+.header-top-right .menu-inline li:first-child{
+  border-right: 1px solid grey;
+  
+}
