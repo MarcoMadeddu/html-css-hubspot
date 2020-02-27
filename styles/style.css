@@ -1,0 +1,12 @@
+/* General Rules */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body{
+  font-family: 'Lato', ;
+  color: gray;
+  font-size: 14px;
+}
