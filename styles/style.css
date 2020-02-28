@@ -103,32 +103,20 @@ body{
 /* Fine header top */
 
 /* Header nav */
-.nav{
-  background-color: white;
-  border: 0;
-}
 
 .header-nav{
-  height: 50px;
   background-color: white;
   line-height: 50px;
-  text-align: center;
   color: #677987;
 }
 
-.header-nav .header-nav-logo,
-.header-nav .header-nav-right{
-  float: left;
-}
-
 .header-nav-right{
-  width: 50%;
   text-align: right;
 }
 
 .header-nav-logo{
-  width: 50%;
   text-align: left;
   padding-left: 19px;
   line-height: 5;
 }
+/* Fine hedaer-nav */
