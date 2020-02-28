@@ -65,13 +65,16 @@ body{
   padding: 5px 10px;
 }
 
+.float{
+  float: left;
+}
+
+.w-50{
+  width: 50%;
+}
+
 /* Sezione Header */
 
-.main-header{
-  width: 100%;
-  background-color: #f4f9fd;
-  border-bottom: 1px solid black;
-}
 /* Header-top */
 
 .header-top a{
@@ -79,10 +82,10 @@ body{
 }
 
 .header-top{
-  height: 50px;
   background-color: #f4f9fd;
   line-height: 50px;
   color: #677987;
+  border-bottom: 1px solid black;
 }
 
 .header-top-left{
@@ -93,19 +96,8 @@ body{
   text-align: right;
 }
 
-.header-top .header-top-right,
-.header-top .header-top-left{
-  float: left;
-}
-
-.header-top-right,
-.header-top-left{
-  width: calc(100% / 2);
-}
-
 .header-top-left .menu-inline  li:first-child{
   border-right: 1px solid grey;
-
 }
 
 /* Fine header top */
