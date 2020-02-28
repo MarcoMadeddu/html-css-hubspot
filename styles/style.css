@@ -59,7 +59,7 @@ body{
 }
 
 .button.button-lg{
-  padding: 30px 40px;
+  padding: 20px 40px;
 }
 
 .button.button-sm{
@@ -72,6 +72,10 @@ body{
 
 .w-50{
   width: 50%;
+}
+
+.max-width{
+  max-width: 200px;
 }
 
 /* Sezione Header */
@@ -160,5 +164,31 @@ body{
   background-color: #afebe5;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
+}
 
+/* Main-info */
+
+#info{
+  height: 400px;
+  background-color: #f4f9fd;
+}
+
+.first-block{
+  text-align: center;
+}
+
+.block-img{
+  width: 300px;
+  padding-top: 50px;
+}
+
+.text h2{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.text p{
+  max-width: 729px;
+  margin: 0 auto;
+  line-height: 2;
 }
