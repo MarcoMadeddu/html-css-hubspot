@@ -14,7 +14,7 @@ body{
 /* Utilities */
 
 .container{
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -31,12 +31,13 @@ body{
 .menu-inline li{
   display: inline-block;
   line-height: 15px;
-  padding: 0px 10px;
 }
 .menu-inline a{
-  padding: 10px;
   color: #33475b;
+  margin: 0px 10px 0px 0px;
 }
+
+
 
 .button{
   display: inline-block;
@@ -98,6 +99,7 @@ body{
 
 .header-top-left .menu-inline  li:first-child{
   border-right: 1px solid grey;
+  margin-right: 5px;
 }
 
 /* Fine header top */
@@ -108,6 +110,7 @@ body{
   background-color: white;
   line-height: 50px;
   color: #677987;
+  height: 51px;
 }
 
 .header-nav-right{
@@ -116,7 +119,19 @@ body{
 
 .header-nav-logo{
   text-align: left;
-  padding-left: 19px;
   line-height: 5;
 }
-/* Fine hedaer-nav */
+/* Fine header-nav */
+
+/* Jumbotron */
+.jumbotron {
+
+  height: 600px;
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content{
+  width: 40%;
+  text-align: left;
+}
