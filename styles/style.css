@@ -153,3 +153,12 @@ body{
   font-size: 10px;
   padding-top: 30px;
 }
+/* Fine Jumbotron */
+
+.bottom-header{
+  height:80px;
+  background-color: #afebe5;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+}
