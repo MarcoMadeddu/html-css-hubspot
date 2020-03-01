@@ -34,7 +34,7 @@ body{
 }
 .menu-inline a{
   color: #33475b;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 20px 0px 0px;
 }
 
 
@@ -78,6 +78,18 @@ body{
   max-width: 200px;
 }
 
+.t-center{
+  text-align: center;
+}
+
+.t-right{
+  text-align: right;
+}
+
+.t-left{
+  text-align: left;
+}
+
 /* Sezione Header */
 
 /* Header-top */
@@ -102,13 +114,15 @@ body{
 }
 
 .header-top-left .menu-inline  li:first-child{
-  border-right: 1px solid grey;
-  margin-right: 5px;
+  border-right: 1px solid black;
+  margin-right: 20px;
 }
 
 /* Fine header top */
 
 /* Header nav */
+
+
 
 .header-nav{
   background-color: white;
@@ -167,14 +181,16 @@ body{
 }
 
 /* Main-info */
+/* Primo blocco */
 
 #info{
-  height: 400px;
+  text-align: center;
+
   background-color: #f4f9fd;
 }
 
 .first-block{
-  text-align: center;
+  padding-bottom: 20px;
 }
 
 .block-img{
@@ -182,13 +198,54 @@ body{
   padding-top: 50px;
 }
 
-.text h2{
+.first-block .text h2{
   font-size: 30px;
   padding-bottom: 30px;
 }
 
-.text p{
+.first-block .text p{
   max-width: 729px;
   margin: 0 auto;
   line-height: 2;
+}
+/* Secondo blocco */
+
+/* colonna sinistra */
+.second-block{
+  background-color: white;
+  height: 400px;
+  padding-top: 50px;
+}
+
+.col-sx img{
+  width: 100px;
+}
+.second-block .col-sx{
+  width: 30%;
+}
+
+.col-sx .text,
+.col-sx .logo{
+  margin-left: 200px;
+}
+
+/* colonna destra */
+
+.second-block .col-dx{
+  width: 70%;
+}
+
+.col-dx .text{
+ margin-left: 100px;
+}
+
+.second-block .text h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.second-block .text p{
+  max-width: 509px;
+  text-align: left;
+  padding-bottom: 10px;
 }
