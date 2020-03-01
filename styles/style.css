@@ -267,26 +267,27 @@ body{
 /* 3 colonne */
 
 .column1{
-  background-color: white;
   margin-top: 50px;
   padding-right: 16px;
 }
 
 .column2{
-  background-color: white;
   margin-top: 50px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
 .column3{
-  background-color: white;
   margin-top: 50px;
   padding-left: 16px;
 }
 
+.column-info{
+  background-color: white;
+}
+
 .column-info img{
-  width: 120px;
+  max-width: 120px;
   padding-top: 10px;
 }
 
@@ -298,7 +299,7 @@ body{
 .column-info .text p{
   max-width: 400px;
   padding: 0px 20px 50px 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid black; line-height: 2;
 }
 
 .column-info .text h4{
@@ -314,4 +315,12 @@ body{
   list-style: none;
   padding-left: 30px;
   padding-bottom: 20px;
+}
+
+.column1 .column-info img{
+  max-width: 96.5px;
+}
+
+.column3 .column-info img{
+  max-width: 88.5px;
 }
