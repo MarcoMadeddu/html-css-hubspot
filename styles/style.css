@@ -32,11 +32,12 @@ body{
   display: inline-block;
   line-height: 15px;
 }
+
 .menu-inline a{
+  text-decoration: none;
   color: #33475b;
   margin: 0px 20px 0px 0px;
 }
-
 
 
 .button{
@@ -90,13 +91,13 @@ body{
   text-align: left;
 }
 
+.w-33{
+  width: calc(100% / 3);
+}
+
 /* Sezione Header */
 
 /* Header-top */
-
-.header-top a{
-  text-decoration: none;
-}
 
 .header-top{
   background-color: #f4f9fd;
@@ -122,12 +123,10 @@ body{
 
 /* Header nav */
 
-
-
 .header-nav{
   background-color: white;
   line-height: 50px;
-  color: #677987;
+  color: #33475b;
   height: 51px;
 }
 
@@ -213,7 +212,6 @@ body{
 /* colonna sinistra */
 .second-block{
   background-color: white;
-  height: 400px;
   padding-top: 50px;
 }
 
@@ -248,4 +246,72 @@ body{
   max-width: 509px;
   text-align: left;
   padding-bottom: 10px;
+}
+
+.second-block h4{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.second-block .menu-inline{
+  padding: 20px 0px;
+}
+
+.orange{
+  color: #fd775a;
+  margin-right: 10px;
+}
+
+/* Fine primo blocco */
+
+/* 3 colonne */
+
+.column1{
+  background-color: white;
+  margin-top: 50px;
+  padding-right: 16px;
+}
+
+.column2{
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.column3{
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 16px;
+}
+
+.column-info img{
+  width: 120px;
+  padding-top: 10px;
+}
+
+.column-info .text h2{
+  font-size: 25px;
+  padding: 10px 0px 20px 0px;
+}
+
+.column-info .text p{
+  max-width: 400px;
+  padding: 0px 20px 50px 20px;
+  border-bottom: 1px solid black;
+}
+
+.column-info .text h4{
+  padding: 20px 0px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
