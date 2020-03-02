@@ -76,9 +76,6 @@ body{
   width: 50%;
 }
 
-.max-width{
-  max-width: 200px;
-}
 
 .t-center{
   text-align: center;
@@ -145,19 +142,19 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.content{
+.jumbotron .content{
   width: 40%;
   text-align: left;
 }
-.content h1,
-.content p,
-.content a
-.content span{
+.jumbotron .content h1,
+.jumbotron .content p,
+.jumbotron .content a
+.jumbotron .content span{
   padding-bottom: 40px;
   line-height: 2;
 }
 
-.content h1{
+.jumbotron .content h1{
   font-size: 50px;
   line-height: 40px;
   padding-top: 40px;
@@ -369,4 +366,41 @@ border-right: 1px solid;
 
 .boxes{
   padding-bottom: 30px;
+}
+
+/* Clients */
+#clients{
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+#clients .col-sx{
+  width: 40%;
+}
+
+#clients .content{
+  max-width: 180px;
+}
+
+#clients .col-sx .content h2{
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+#clients .col-sx .content p{
+  line-height: 2;
+}
+
+#clients .col-dx{
+  width: 60%
+}
+
+#clients .col-dx{
+  width: 60%;
+}
+
+.clients-logo img{
+  max-height: 40px;
+  max-width: 120px
 }
