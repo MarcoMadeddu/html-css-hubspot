@@ -47,6 +47,7 @@ body{
   line-height: 10px;
   color: #fd775a;
   padding: 5px 10px;
+  text-decoration: none;
 }
 
 .button.button-white{
@@ -93,6 +94,10 @@ body{
 
 .w-33{
   width: calc(100% / 3);
+}
+
+.w-25{
+  width: 25%
 }
 
 /* Sezione Header */
@@ -267,23 +272,21 @@ body{
 /* 3 colonne */
 
 .column1{
-  margin-top: 50px;
-  padding-right: 16px;
+  padding: 50px 16px 50px 0px;
+
 }
 
 .column2{
-  margin-top: 50px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 50px 16px 50px 16px;
 }
 
 .column3{
-  margin-top: 50px;
-  padding-left: 16px;
+  padding: 50px 0px 50px 16px;
 }
 
 .column-info{
   background-color: white;
+  border-radius: 5px;
 }
 
 .column-info img{
@@ -323,4 +326,55 @@ body{
 
 .column3 .column-info img{
   max-width: 88.5px;
+}
+
+.column-info a{
+  margin-bottom: 20px;
+}
+
+/* fine 3 colonne */
+
+
+/* Sezione Learn */
+#learn{
+  background-color: #14b4ae;
+  color:white;
+  padding-bottom: 30px;
+}
+
+.learn-text h2{
+  font-size: 36px;
+  padding: 20px 0px;
+}
+
+.learn-text p{
+  font-size: 16.8px;
+  padding-bottom: 30px;
+}
+
+.box{
+height: 150px;
+
+}
+
+.box-info img{
+  padding-top: 10px;
+  max-width: 100px;
+}
+
+.box-info h2{
+  padding: 20px 0px;
+}
+
+.border {
+border-left: 1px solid;
+border-right: 1px solid;
+}
+
+.border-btt{
+  border-bottom: 2px solid;
+}
+
+.boxes{
+  padding-bottom: 30px;
 }
